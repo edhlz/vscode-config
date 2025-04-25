@@ -1,0 +1,69 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Firefox Quantum Dark",
+    "workbench.statusBar.visible": false, 
+    "workbench.editor.showTabs": "single", 
+    "window.titleBarStyle": "custom", 
+    "editor.guides.indentation": false,
+    "window.commandCenter": false,
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.renderLineHighlight": "none", 
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "underline", 
+    "editor.wordWrap": "on",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.renderWhitespace": "none", 
+    "editor.renderControlCharacters": false, 
+
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.defaultProfile.linux": "kitty",
+    "terminal.integrated.profiles.linux": {
+        "kitty": {
+            "path": "flatpak-spawn",
+            "args": ["--host", "/usr/bin/kitty"],
+            "overrideName": true
+        }
+    },
+
+    "explorer.compactFolders": true,
+    "explorer.fileNesting.enabled": true,
+
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 5,
+
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "[python]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+
+    "svelte.enable-ts-plugin": true,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    
+}
